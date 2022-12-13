@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+* {
+    list-style: none;
+}
+
+.banner {
+    margin-top: 20px;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.container {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-container {
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    transition: all 0.2s;
+    border-radius: 8px;
+}
+
+.product-container:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+li {
+    width: calc(100% / 3);
+    padding: 0 10px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+ul {
+    margin: 0 -10px;
+}
+
+.product-name {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product-price {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 650px) {
+    .list>ul>li {
+        width: calc(100% / 3);
+    }
+}
+
+@media (max-width: 500px) {
+    .list>ul>li {
+        width: calc(100% / 2);
+    }
+}
+
+@media (max-width: 400px) {
+    .list>ul>li {
+        width: calc(100% / 2);
+    }
+}
+
+@media (max-width: 300px) {
+    .list>ul>li {
+        width: calc(100% / 1);
+    }
+}

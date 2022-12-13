@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+
+.banner img {
+    margin-top: 15%;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.typewrite {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    margin-top: 40px;
+    font-weight: bold;
+    color: #000;
+    font-size: 1.5em;
+    text-align: center;
+}
